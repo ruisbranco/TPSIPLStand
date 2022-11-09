@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/btnback"
+        android:icon="@android:drawable/ic_menu_revert"
+        android:title="Item"
+        app:showAsAction="ifRoom" />
+    <item
+        android:id="@+id/btnclose"
+        android:icon="@android:drawable/ic_menu_close_clear_cancel"
+        android:title="Item"
+        app:showAsAction="ifRoom" />
+    <item
+        android:id="@+id/classicos"
+        android:title="@string/classe" />
+    <item
+        android:id="@+id/todoterreno"
+        android:title="@string/tt" />
+    <item
+        android:id="@+id/topogama"
+        android:title="@string/tg" />
+</menu>
